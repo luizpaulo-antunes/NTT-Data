@@ -1,0 +1,8 @@
+ti:
+  base_url: 'https://google.com/'
+
+qa:
+  base_url: 'https://www.saucedemo.com/'
+
+prod:
+  base_url: 'https://google.com/'

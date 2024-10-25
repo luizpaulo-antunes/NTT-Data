@@ -1,0 +1,10 @@
+#language: pt
+
+
+Funcionalidade: Login de Admin
+
+@login
+  Cenário: Realizar login com credenciais válidas
+    Dado que estou na página de login
+    Quando realizo o login com credenciais inválidas
+    Então devo receber a mensagem de erro "Epic sadface: Username and password do not match any user in this service"
